@@ -30,7 +30,7 @@ module load seqkit/2.3.1
 
 echo subset A subgenome
 date
-seqkit grep -f $HOME/fhb/ref/subgenome_A.txt $INFASTA > $CV.chrsA.fasta
+seqkit grep -rp '\dA' $INFASTA > $CV.chrsA.fasta
 
 echo Build database
 date

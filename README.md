@@ -86,7 +86,7 @@ __Requirements:__
 
 # Wheat annotation workflow
 
-## 1. RepeatModeler-chrsA.sh
+## 1. RepeatModeler.sh
 
 __Input:__
 
@@ -94,9 +94,8 @@ __Input:__
 
 __Output:__
 
-- Repeat/TE models for A subgenome
+- Repeat/TE models for each subgenome (A, B, and D)
 
 __Requirements:__
 
 - RepeatModeler
-- subgenome_A.txt (Used to subset A subgenome from full scaffolded assembly)

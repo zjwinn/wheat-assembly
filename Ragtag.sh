@@ -28,8 +28,8 @@ QUERY=/90daydata/gbru_wheat2/$CV/Assembly/Hifiasm/$CV.asm.bp.p_ctg.fasta
 OUTDIR=/90daydata/gbru_wheat2/$CV/Assembly/RagTag
 
 date
-# -r flag infers gap sizes: min=100bp max=100,000,000bp; -C concatenates unplaced contigs to chr0
-ragtag.py scaffold --mm2-params '-I 200g -x asm5' -t 32 -r -g 100 -m 100000000 -C -o $OUTDIR $REF $QUERY
+# Run Ragtag
+ragtag.py scaffold --mm2-params '-I 200g -x asm5' -t 48 -o $OUTDIR $REF $QUERY
 date
 
 #Rename headers

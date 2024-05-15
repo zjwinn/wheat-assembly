@@ -69,24 +69,7 @@ __Requirements:__
 
 - R packages: pafr, gridExtra
 
-
-## 5. RepeatModeler-chrsA.sh
-
-__Input:__
-
-- Scaffold assembly
-
-__Output:__
-
-- Repeat/TE models for A subgenome
-
-__Requirements:__
-
-- RepeatModeler
-- subgenome_A.txt (Used to subset A subgenome from full scaffolded assembly)
-
-
-## Busco.sh
+## 5. Busco.sh
 
 __Input:__
 
@@ -100,3 +83,20 @@ __Output:__
 __Requirements:__
 
 - BUSCO
+
+# Wheat annotation workflow
+
+## 1. RepeatModeler-chrsA.sh
+
+__Input:__
+
+- Scaffold assembly
+
+__Output:__
+
+- Repeat/TE models for A subgenome
+
+__Requirements:__
+
+- RepeatModeler
+- subgenome_A.txt (Used to subset A subgenome from full scaffolded assembly)

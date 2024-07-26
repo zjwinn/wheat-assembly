@@ -1,0 +1,3 @@
+GENOTYPE: "Hilliard"
+PACBIO_DIR: "/90daydata/gbru_wheat2/PacBio_WGS/Hilliard/Bam"
+RAGTAG_REF: "/project/gbru_wheat2/ref/Attraktion_ENA/Attraktion.rename.fasta"

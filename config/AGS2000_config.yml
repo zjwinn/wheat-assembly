@@ -1,0 +1,6 @@
+ACCESSION: "AGS2000"
+RAGTAG_REF: "/project/gbru_wheat2/ref/Attraktion_1RS_1BL/Attraktion_1RS_1BL.rename.fasta"
+TREP_FASTA: "/project/gbru_wheat2/ref/TREP/trep-db_nr_Rel-19.fasta"
+VECSCREEN_DB: "files/UniVec"
+VRN_DB: "files/TripleDirkC_vrn_genes.fa"
+PPD_DB: "files/Taes_Ppd_genes.fa"

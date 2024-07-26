@@ -63,8 +63,10 @@ rule assemble_contigs:
     log:
         "logs/assemble_contigs.log"
     threads: 48
+    params:
+        prefix = "results/hifiasm/hifiasm.asm"
     shell:
-        "hifiasm -t {threads} -l0 -i -f38 {input} 2> {log}"
+        "hifiasm -t {threads} -l0 -i -f38 -o {params.prefix} {input} 2> {log}"
 
 rule extract_fasta:
     input:

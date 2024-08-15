@@ -1,21 +1,3 @@
-The assembly / annotation workflow is currently divided into sections managed by [Snakemake](https://snakemake.readthedocs.io/en/stable/).
-
-All sections of this repository are currently under development.
-
-## TO DO:
-
-- Move annotation workflow to its own repo.
-
-- Update vrn BLAST to include VRN2 and VRN3.
-
-- Define input directory (Raw_Bam) in config.yml.
-
-- Move scripts and files to parent directory.
-
-- Move rules to .smk files.
-
-
-
 # Wheat assembly workflow
 
 1. Install software into conda environment

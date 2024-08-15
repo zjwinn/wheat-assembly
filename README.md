@@ -21,7 +21,7 @@ sbatch snakemake_batch.sh
 Or, run snakemake locally.
 
 ```
-snakemake --cores 'all' --configfile config.yml
+snakemake --cores 'all' --configfile config/config.yml
 ```
 
 

@@ -1,6 +1,6 @@
 # Wheat assembly workflow
 
-1. Install software into conda environment
+1. Install software into a conda environment
 
 ```
 conda create --name assembly_env

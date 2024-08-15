@@ -15,14 +15,12 @@ conda install snakemake pbtk cutadapt hifiasm ragtag r-pafr
 Use batch script to submit jobs to SLURM.
 
 ```
-cd /path/Accession/1_Assembly
 sbatch snakemake_batch.sh
 ```
 
 Or, run snakemake locally.
 
 ```
-cd /path/Accession/1_Assembly
 snakemake --cores 'all' --configfile config.yml
 ```
 

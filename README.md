@@ -12,7 +12,7 @@ conda install snakemake pbtk cutadapt hifiasm ragtag r-pafr
 
 3. Run snakemake
 
-Use batch script to submit jobs to SLURM.
+Use batch script to submit job to SLURM.
 
 ```
 sbatch snakemake_batch.sh

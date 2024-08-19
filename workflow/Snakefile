@@ -76,7 +76,7 @@ rule extract_fasta:
     log:
         "logs/extract_fasta.log"
     shell:
-        "python scripts/gfa_to_fasta.py {input} {output} 2> {log}"
+        "python workflow/scripts/gfa_to_fasta.py {input} {output} 2> {log}"
 
 rule scaffold_contigs:
     input:
@@ -116,4 +116,4 @@ rule plot_coverage:
     output:
         plot = "results/plots/{genotype}_ragtag_alignment.jpeg"
     shell:
-        "Rscript scripts/plot_coverage.R {input.paf} {output.plot}"
+        "Rscript workflow/scripts/plot_coverage.R {input.paf} {output.plot}"

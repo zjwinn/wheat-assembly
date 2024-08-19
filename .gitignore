@@ -2,6 +2,12 @@
 results/*
 logs/*
 
+# Any .stout or .stderr
+*stderr*
+*STDERR*
+*stdout*
+*STDOUT*
+
 # History files
 .Rhistory
 .Rapp.history

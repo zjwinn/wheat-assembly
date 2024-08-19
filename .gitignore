@@ -1,6 +1,8 @@
 # Snakemake output
 results/*
 logs/*
+.snakemake
+
 
 # Any .stout or .stderr
 *stderr*

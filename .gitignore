@@ -1,3 +1,7 @@
+# Snakemake output
+results/*
+logs/*
+
 # History files
 .Rhistory
 .Rapp.history

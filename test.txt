@@ -1,2 +1,0 @@
-# Test change
-Here is a test change I want to make and I am going to submit a pull request to do so.
